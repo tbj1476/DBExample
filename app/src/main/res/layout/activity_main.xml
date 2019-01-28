@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_grey"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />-->
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@color/grey">
+
+        <RelativeLayout
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="5dp"
+            android:background="@color/white"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:text="Name"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="295dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_name"
+
+                android:inputType="text"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/tv_contact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:text="Contact"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/contact"
+                android:layout_width="295dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_contact"
+                android:inputType="number"
+                android:text="" />
+
+            <Button
+                android:id="@+id/save"
+                style="@style/Base.Widget.AppCompat.Button"
+                android:background="@drawable/button_background"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerInParent="true"
+                android:text="Save"
+                android:textColor="@color/black"
+                android:layout_below="@+id/contact"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

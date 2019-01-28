@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DBExample</string>
+
+    <string name="cname_empty_error">Please enter contact name</string>
+    <string name="cnumber_empty_error">Please enter contact number</string>
+    <string name="cnumber_length_error">Please enter contact number</string>
+
+    <string name="contact_insert_success">Contact details added successfully!</string>
+    <string name="contact_insert_error">Sorry, cannot add contact details</string>
+</resources>
