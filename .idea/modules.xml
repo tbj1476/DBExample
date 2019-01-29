@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/DBExample.iml" filepath="$PROJECT_DIR$/DBExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DBExampleGit.iml" filepath="$PROJECT_DIR$/DBExampleGit.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
